@@ -284,7 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c507368a4ad0b2489322342051f4033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 5
+  velocidad: 4
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,9 +552,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3753613701577497559, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753613701577497559, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753613701577497559, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3763657761155114701, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
       propertyPath: m_Name
       value: Enemigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956418592216221079, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 115538766}
+    - target: {fileID: 5956418592216221079, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
+      propertyPath: velocidad
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
