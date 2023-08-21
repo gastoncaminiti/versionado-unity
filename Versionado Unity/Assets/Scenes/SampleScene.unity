@@ -568,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo
       objectReference: {fileID: 0}
+    - target: {fileID: 3763657761155114701, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5956418592216221079, guid: 50b4f3d506af5804c9a355c2114fa3bc, type: 3}
       propertyPath: jugador
       value: 
